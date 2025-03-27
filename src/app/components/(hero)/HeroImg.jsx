@@ -9,10 +9,10 @@ const HeroImg = () => {
         <div className="ocean-color-icon"></div>
       </div>
 
-      <div>
-        <img src="/navy.png" alt="Navy" />
-        <img src="/mint.png" alt="Mint" />
-        <img src="/ocean.png" alt="Ocean" />
+      <div className="icon-swatches">
+        <img className="pic1" src="/navy.png" alt="Navy" />
+        <img className="pic2" src="/mint.png" alt="Mint" />
+        <img className="pic3" src="/ocean.png" alt="Ocean" />
       </div>
     </div>
   );

@@ -3,8 +3,8 @@ import HeroImg from "../components/(hero)/HeroImg";
 
 const Hero = () => {
   return (
-    <div>
-      <HeroText />¨
+    <div className="Hero">
+      <HeroText />
       <HeroImg />
     </div>
   );
