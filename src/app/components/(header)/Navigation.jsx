@@ -1,6 +1,6 @@
 const Navigation = () => {
   return (
-    <div>
+    <div className="menu">
       <nav>
         <ul>
           <li>

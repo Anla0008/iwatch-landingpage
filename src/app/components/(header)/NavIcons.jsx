@@ -3,10 +3,10 @@ import { FiShoppingBag } from "react-icons/fi";
 
 const NavIcons = () => {
   return (
-    <div>
-      <CiSearch />
+    <div className="nav-icons">
+      <CiSearch size={25} />
       <p>|</p>
-      <FiShoppingBag />
+      <FiShoppingBag size={25} />
     </div>
   );
 };
