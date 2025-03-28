@@ -41,13 +41,18 @@ header {
   margin-top: 30px;
 
   h1 {
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: bold;
-    margin-top: 6rem;
   }
 
   h2 {
-    font-size: 3rem;
+    font-size: 4rem;
+  }
+
+  .HeroText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 
   .hero-button {
@@ -58,7 +63,7 @@ header {
     color: white;
     text-decoration: none;
     display: inline-block;
-    margin-top: 2rem;
+    max-width: fit-content;
 
     &:hover {
       background-color: white;
@@ -71,9 +76,6 @@ header {
     align-items: center;
     justify-content: left;
     gap: 10px;
-    grid-column: 1 / span 2;
-    grid-row: 3;
-    margin-top: 2rem;
   }
 
   .icon-swatches {
@@ -98,5 +100,40 @@ header {
 
   .pic3 {
     background-color: #d5e4eb99;
+  }
+}
+
+.hero-choose-img {
+  display: flex;
+
+  .color-icon-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-self: center;
+
+    > div {
+      width: 25px;
+      height: 25px;
+      border: 2px solid #fff;
+      cursor: pointer;
+      border-radius: 100%;
+    }
+
+    .navy-color-icon {
+      background-color: #434558;
+    }
+
+    .ocean-color-icon {
+      background-color: #d5e4eb;
+    }
+
+    .mint-color-icon {
+      background-color: #6addcc;
+    }
+
+    .active {
+      border: 5px solid white;
+    }
   }
 }

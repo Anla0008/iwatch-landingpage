@@ -4,7 +4,7 @@ import HeroHeader from "./(hero)/(hero-text)/HeroHeader";
 
 const HeroText = () => {
   return (
-    <div>
+    <div className="HeroText">
       <HeroHeader />
       <HeroButton />
       <Arrows />
