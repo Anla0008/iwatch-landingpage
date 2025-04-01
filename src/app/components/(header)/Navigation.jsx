@@ -2,20 +2,20 @@ const Navigation = () => {
   return (
     <div className="menu">
       <nav>
-        <ul>
-          <li>
+        <ul className="flex gap-[4.2rem]">
+          <li className="list-none text-lg">
             <a href="#">Mac</a>
           </li>
-          <li>
+          <li className="list-none text-lg">
             <a href="#">iPhone</a>
           </li>
-          <li>
+          <li className="list-none text-lg">
             <a href="#">iPad</a>
           </li>
-          <li>
+          <li className="list-none text-lg">
             <a href="#">iWatch</a>
           </li>
-          <li>
+          <li className="list-none text-lg">
             <a href="#">Support</a>
           </li>
         </ul>

@@ -4,7 +4,7 @@ import HeroHeader from "./(hero)/(hero-text)/HeroHeader";
 
 const HeroText = () => {
   return (
-    <div className="HeroText">
+    <div className="HeroText flex flex-col justify-between text-white">
       <HeroHeader />
       <HeroButton />
       <Arrows />

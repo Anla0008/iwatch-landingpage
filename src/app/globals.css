@@ -12,7 +12,7 @@ body {
   padding: 40px;
 }
 
-header {
+/* header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -92,8 +92,7 @@ header {
 
   .pic1 {
     background-color: #43455899; /*99 er en alpha-værdi der styrer gennemsigtigheden af farven*/
-  }
-
+/*}
   .pic2 {
     background-color: #6addcc99;
   }
@@ -136,4 +135,4 @@ header {
       border: 5px solid white;
     }
   }
-}
+} */
