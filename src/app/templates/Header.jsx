@@ -1,13 +1,13 @@
 import Logo from "../components/(header)/Logo";
-import Navigation from "../components/(header)/Navigation";
 import NavIcons from "../components/(header)/NavIcons";
+import Navigation from "../components/(header)/Navigation";
 
 const Header = () => {
   return (
     <header className="flex justify-between items-center">
-      <Logo></Logo>
-      <Navigation></Navigation>
-      <NavIcons></NavIcons>
+      <Logo />
+      <Navigation />
+      <NavIcons />
     </header>
   );
 };
