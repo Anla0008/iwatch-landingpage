@@ -4,7 +4,7 @@ const Navigation = () => {
       <nav>
         <ul className="flex gap-[4.2rem]">
           <li className="list-none text-lg">
-            <a href="#">Mac</a>
+            <a href="/page.js">Mac</a>
           </li>
           <li className="list-none text-lg">
             <a href="#">iPhone</a>

@@ -1,11 +1,11 @@
 import Header from "./templates/Header";
-import InfoMac from "./components/(infoMac)/infoMac";
+import Hero from "./templates/Hero";
 
 export default function Home() {
   return (
     <div>
       <Header />
-      <InfoMac />
+      <Hero />
     </div>
   );
 }
